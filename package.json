@@ -1,0 +1,66 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.7.0",
+    "node": "11.15.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "apexcharts": "^3.22.1",
+    "axios": "^0.21.0",
+    "react": "^17.0.1",
+    "react-apexcharts": "^1.3.7",
+    "react-dom": "^17.0.1",
+    "react-map-gl": "^5.2.10",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project created by Ogzico.",
+  "main": "index.js",
+  "devDependencies": {},
+  "keywords": [
+    "Dashboard",
+    "Covid",
+    "Statistics"
+  ],
+  "author": "Ogzico",
+  "license": "ISC"
+}

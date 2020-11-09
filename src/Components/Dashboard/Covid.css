@@ -1,0 +1,148 @@
+#circle-chart {
+    display: flex;
+    flex-direction: column;
+}
+
+#map-chart {
+    display: flex;
+    flex-direction: column;
+}
+
+#chartContainer {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1520px) {
+    #circle-chart{
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,0.125);
+    border-radius: 0.2rem;
+    box-shadow: 0 2px 4px rgba(126, 142, 177, 0.12);
+    margin-bottom: 1.5rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    /* min-height: 1px; */
+    min-height: 150px;
+    padding: 1.25rem;
+    padding-top: 0.75rem;
+}
+
+.card-title {
+    color: #3e4676;
+    font-size: 0.96rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.bg-primary-dark {
+    background-color: #2469ce !important;
+}
+
+.avatar-title {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.percentage-text {
+    font-size: 0.75rem;
+    margin-left: 0.25rem;
+}
+
+.data-text {
+    font-size: 0.85rem;
+    margin-left: 0.25rem;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 1rem !important;
+}
+
+.pt-3, .py-3 {
+    padding-top: 1rem !important;
+}
+
+.chart-sm {
+    min-height: 240px;
+}
+
+@media only screen and (min-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+  }
+
+@media only screen and (max-width: 1440px) {
+    #circle-chart{
+        padding: 1.25rem !important;
+    }
+
+    .card-body {
+        padding-top: 1.5rem;
+    }
+}
+
+.chart {
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 0px solid rgba(0,0,0,0.125);
+}
+
+.mapboxgl-ctrl-bottom-left {
+    visibility: hidden !important;
+}
+
+.mapboxgl-ctrl-bottom-right {
+    visibility: hidden !important;
+}
+
+.map-popup-info {
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (min-width:1440px) {
+    .col-xxl-5 {
+        flex: 0 0 41.5%;
+        max-width: 41.5%;
+    }
+
+    .col-xxl-7{
+        flex: 0 0 58%;
+        max-width: 58%;
+    }
+
+    .card-body {
+        padding: 1.5rem !important;
+    }
+}
